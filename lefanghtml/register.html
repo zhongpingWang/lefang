@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_482698_z16l3wm2qkw3ik9.css">
+    <style type="text/css">
+    html,
+    body,
+    ul,
+    li,
+    div,
+    span,
+    p {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+
+    .registerContent {
+        width: 100%;
+        height: 762px;
+        background: url(http://lefang.com/resources/password/images/bg.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .registerContent .headerBg {
+        height: 74px;
+        background: rgba(255, 255, 255, .8);
+    }
+
+    .registerContent .header {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .registerContent .header .logo {
+        height: 78px;
+        margin-top: 9px;
+    }
+
+    .registerContent .header .text {
+        float: right;
+        margin-top: 48px;
+    }
+
+    .registerContent .header .text a {
+        color: red;
+    }
+
+
+    .registerContent .registerDialog {
+        width: 475px;
+        height: 540px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 3px;
+        margin-top: 84px;
+    }
+
+    .registerContent .registerDialog .title {
+        height: 55px;
+        border-bottom: 1px #ccc solid;
+        font-size: 22px;
+        line-height: 55px;
+        text-align: center;
+        color: orange;
+    }
+
+    .registerContent .registerDialog .registerInfo {
+        padding-top: 18px;
+    }
+
+    .registerContent .registerDialog .infoItem {
+        position: relative;
+        height: 45px;
+        line-height: 42px;
+    }
+
+    .registerContent .registerDialog .infoItem .text {
+        float: left;
+        width: 88px;
+        text-align: right;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+    .registerContent .registerDialog .infoItem .text i {
+        color: red;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    .registerContent .registerDialog .infoItem .iconPosi {
+        position: absolute;
+        top: 1px;
+        right: 80px;
+        color: #ccc;
+    }
+
+
+    .registerContent .registerDialog .txtInput {
+        outline: none;
+        width: 302px;
+        height: 34px;
+        border: 1px #ccc solid;
+        line-height: 38px;
+        font-size: 14px;
+        padding-left: 12px;
+    }
+
+
+    .registerContent .registerDialog .infoError {
+        padding-left: 100px;
+        font-size: 12px;
+        color: red;
+        height: 24px;
+    }
+
+    .registerContent .registerDialog .txtInput.txtCode {
+        width: 145px;
+    }
+
+    .registerContent .registerDialog .btnCode {
+        display: inline-block;
+        width: 150px;
+        border: 1px #ccc solid;
+        background: #eee;
+        text-align: center;
+        color: #999;
+        margin-top: 2px;
+        vertical-align: top;
+        height: 38px;
+        cursor: pointer;
+    }
+
+    .registerContent .registerDialog .regTerms {
+        padding-left: 98px;
+        font-size: 14px;
+    }
+
+    .registerContent .registerDialog .regTerms .text {
+        color: #666;
+    }
+
+    .registerContent .registerDialog .regTerms .ckArgee {
+        vertical-align: -2px;
+    }
+
+    .registerContent .registerDialog .regTerms .termsInfo {
+        color: red;
+        cursor: pointer;
+    }
+
+    .registerContent .registerDialog .btnReg {
+        width: 318px;
+        height: 48px;
+        background: orange;
+        margin: 0 auto;
+        margin-top: 15px;
+        border-radius: 3px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 48px;
+        cursor: pointer;
+    }
+
+    .linkBox {
+        width: 705px;
+        margin: 20px auto;
+        height: 30px;
+        text-align: center;
+        border-bottom: 1px #ccc solid;
+        font-size: 12px;
+    }
+
+    .linkBox .linkItem {
+        float: left;
+        width: 99px;
+        border-right: 1px #ccc solid;
+    }
+
+    .linkBox .linkItem a {
+        color: #999;
+        text-decoration: none;
+    }
+
+    .linkBox .linkItem a:hover {
+        color: orange;
+    }
+
+    .linkBox .linkItem.last {
+        border: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="registerContent">
+        <div class="headerBg">
+            <div class="header">
+                <img class="logo" src="http://lefang.com/resources/password/images/logo-1.png" />
+                <span class="text">
+			已有账号？请<a href="#fff">登陆</a>
+			</span>
+            </div>
+        </div>
+        <div class="registerDialog">
+            <div class="title">
+                欢迎注册乐纺网
+            </div>
+            <div class="registerInfo">
+                <div class="infoItem">
+                    <span class="text"><i>*</i>用户名：</span>
+                    <div class="infoText">
+                        <input type="text" class="txtInput" placeholder="请输入联系人姓名" />
+                        <i class="iconPosi iconfontlefang leicon-ren"></i>
+                    </div>
+                </div>
+                <div class="infoError">
+                    请用户已被注册
+                </div>
+                <div class="infoItem">
+                    <span class="text"><i>*</i>手机号码：</span>
+                    <div class="infoText">
+                        <input type="text" class="txtInput" placeholder="请输入手机号码" />
+                        <i class="iconPosi iconfontlefang leicon-phone"></i>
+                    </div>
+                </div>
+                <div class="infoError">
+                    此号码格式不对
+                </div>
+                <div class="infoItem">
+                    <span class="text"><i>*</i>验证码：</span>
+                    <div class="infoText">
+                        <input type="text" class="txtInput txtCode" placeholder="请输入验证码" />
+                        <span class="btnCode">获取短信验证码</span>
+                    </div>
+                </div>
+                <div class="infoError">
+                    验证码错误
+                </div>
+                <div class="infoItem">
+                    <span class="text"><i>*</i>密码：</span>
+                    <div class="infoText">
+                        <input type="password" class="txtInput" placeholder="请输入6~20位字符" />
+                        <i class="iconPosi iconfontlefang leicon-suo"></i>
+                    </div>
+                </div>
+                <div class="infoError">
+                    请输入6~20位字符
+                </div>
+                <div class="infoItem">
+                    <span class="text"><i>*</i>确认密码：</span>
+                    <div class="infoText">
+                        <input type="password" class="txtInput" placeholder="请输入6~20位字符" />
+                        <i class="iconPosi leicon-suo iconfontlefang"></i>
+                    </div>
+                </div>
+                <div class="infoError">
+                    两次输入的密码不一致
+                </div>
+                <div class="regTerms">
+                    <label class="text">
+                        <input class="ckArgee" type="checkbox" />我已阅读并同意 </label><span class="termsInfo">《乐纺网用户注册协议》 </span>
+                </div>
+                <div class="btnReg">
+                    注 册
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul class="linkBox">
+        <li class="linkItem"><a href="###">新手指南</a></li>
+        <li class="linkItem"><a href="###">支付与买卖货</a></li>
+        <li class="linkItem"><a href="###">售后服务</a></li>
+        <li class="linkItem"><a href="###">关于我们</a></li>
+        <li class="linkItem"><a href="###">常见问题</a></li>
+        <li class="linkItem"><a href="###">人才招聘</a></li>
+        <li class="linkItem last"><a href="###">帮助中心</a></li>
+    </ul>
+</body>
+
+</html>
